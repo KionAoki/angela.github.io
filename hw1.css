@@ -1,0 +1,81 @@
+body {
+    display: block;
+    margin: 0px;
+}
+nav{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    background-color: #353A3F;
+    justify-content: flex-start;
+}
+nav ul{
+    display: inline-flex;
+    flex-flow: row nowrap;
+    color: #6D7276;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    list-style: none;
+    padding: 5px;
+}
+
+nav a {
+    color: white; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;  /* 移除超連結底線 */
+}
+.banner{
+    display:flex;
+    flex-flow: column nowrap;
+    background-color: #EAECEF;
+    padding: 50px 200px 50px 200px;
+    justify-content: center;
+}
+h1{
+    font-size: 100px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 10px 0px 10px 0px;
+    font-weight: 200;
+}
+.banner_button{
+    display: flex;
+    background-color:#2E7DF6;
+    justify-content: flex-start;
+    width: 170px;
+    border-radius:10px;
+}
+.banner_button a{
+    color: white; /* 移除超連結顏色 */
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none; 
+}
+.item_group {
+    display: flex;
+    justify-content: center;
+    padding: 50px 200px 50px 200px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+.item_button{
+    display: flex;
+    background-color:#6E757C;
+    justify-content: flex-start;
+    width: 115px;
+    border-radius:10px;
+}
+.item_group div{
+    padding: 0px 0px 0px 10px;
+}
+.item_button a{
+    color: white; /* 移除超連結顏色 */
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.8rem;
+    padding: 10px 5px 10px 5px;
+    text-decoration: none; 
+}
+
+h2{
+    font-weight: 400;
+}
