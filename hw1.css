@@ -3,18 +3,25 @@ body {
     margin: 0px;
 }
 nav{
-    display: inline-flex;
+    display: flex;
     flex-flow: row nowrap;
     background-color: #353A3F;
     justify-content: flex-start;
 }
-nav ul{
+
+ul{
+    padding: 0px 10px;
+}
+nav li{
     display: inline-flex;
     flex-flow: row nowrap;
     color: #6D7276;
     font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     list-style: none;
-    padding: 5px;
+    padding: 0px 0px 0px 10px;
+}
+nav li:first-child{
+    padding: 0px 0px 0px 5px;
 }
 
 nav a {
@@ -22,7 +29,7 @@ nav a {
     display: block; /* 讓 <a> 填滿 <li> */
     font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.2rem;
-    padding: 10px;
+    padding: 0px 0px;
     text-decoration: none;  /* 移除超連結底線 */
 }
 .banner{
