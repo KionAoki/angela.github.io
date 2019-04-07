@@ -1,4 +1,4 @@
-#  歡迎來到 KionAoki branch
+#  歡迎來到 angela branch
 
 ## 第 3 關
 
@@ -10,8 +10,8 @@
 趕緊來解決第三關吧！
 
 啊其實我搞錯 branch 了啦！
-我得用 KionAoki branch 交作業才行！
-可以幫我取消 Apple branch 的 `commit` 更新 KionAoki branch 的檔案嗎？
+我得用 angela branch 交作業才行！
+可以幫我把 angela 的 mistake.js 更新成 Apple 我們改過的 mistake.js，並取消 Apple branch 的 `commit`嗎？
 
-下一關的線索就在字裡行間喔喔喔
+完成後，下一關的線索就在檔案的字裡行間喔喔喔
 知道答案的話，就 `checkout` 到答案的 branch 吧～
